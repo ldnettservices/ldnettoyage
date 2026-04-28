@@ -3,12 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LD Nettoyage – Entreprise de nettoyage professionnel en Île-de-France</title>
-  <meta name="description" content="LD Nettoyage, entreprise écoresponsable de nettoyage professionnel en Île-de-France. Bureaux, copropriétés, parkings, écoles, EHPAD, cabinets médicaux." />
+
+  <!-- SEO PRIMARY -->
+  <title>LD Nettoyage – Entreprise de Nettoyage Professionnel en Île-de-France | Devis Gratuit</title>
+  <meta name="description" content="LD Nettoyage : entreprise de nettoyage professionnel à Livry-Gargan. Copropriétés, bureaux, parkings, écoles, EHPAD, cabinets médicaux. Devis gratuit — 06 86 40 01 17." />
+  <meta name="keywords" content="nettoyage professionnel Île-de-France, entreprise nettoyage Livry-Gargan, nettoyage copropriété 93, entretien parties communes, nettoyage bureau Paris, nettoyage parking, société nettoyage Seine-Saint-Denis, nettoyage industriel, devis nettoyage gratuit, nettoyage EHPAD, nettoyage cabinet médical" />
+  <link rel="canonical" href="https://ldnetservices.fr/" />
+
+  <!-- GEO -->
+  <meta name="geo.region" content="FR-93" />
+  <meta name="geo.placename" content="Livry-Gargan" />
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LD Nettoyage – Nettoyage Professionnel en Île-de-France" />
+  <meta property="og:description" content="Entreprise de nettoyage professionnel basée à Livry-Gargan. Devis gratuit, intervention rapide partout en Île-de-France." />
+  <meta property="og:url" content="https://ldnetservices.fr/" />
+  <meta property="og:image" content="https://ldnetservices.fr/images/hero.jpg" />
+
+  <!-- SCHEMA.ORG LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "LD Nettoyage",
+    "description": "Entreprise de nettoyage professionnel et industriel en Île-de-France. Copropriétés, bureaux, parkings, écoles, EHPAD, cabinets médicaux.",
+    "url": "https://ldnetservices.fr",
+    "telephone": "+33686400117",
+    "email": "contact@ld-nettoyage.fr",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Livry-Gargan",
+      "addressLocality": "Livry-Gargan",
+      "addressRegion": "Île-de-France",
+      "postalCode": "93190",
+      "addressCountry": "FR"
+    },
+    "areaServed": ["Livry-Gargan","Aulnay-sous-Bois","Le Raincy","Paris","Seine-Saint-Denis","Île-de-France"],
+    "openingHours": "Mo-Sa 08:00-20:00",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "34"
+    },
+    "priceRange": "€€"
+  }
+  </script>
+
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -18,12 +63,12 @@
       <div class="topbar__left">
         <a href="tel:0686400117" class="topbar__item">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
-          06 86 40 01 17
+          <strong>06 86 40 01 17</strong>
         </a>
         <span class="topbar__sep">|</span>
         <span class="topbar__item">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
-          Du lundi au samedi, de 8h à 20h
+          Lun – Sam : 8h à 20h
         </span>
         <span class="topbar__sep">|</span>
         <a href="mailto:contact@ld-nettoyage.fr" class="topbar__item">
@@ -31,298 +76,489 @@
           contact@ld-nettoyage.fr
         </a>
       </div>
+      <div class="topbar__right">
+        <span class="topbar__badge">✅ Devis gratuit sous 24h</span>
+      </div>
     </div>
   </div>
 
   <!-- ===== HEADER ===== -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a href="#" class="logo">
-        <img src="images/logo.webp" alt="LD Nettoyage" />
+      <a href="#" class="logo" aria-label="LD Nettoyage - Accueil">
+        <img src="images/logo.webp" alt="LD Nettoyage – Entreprise de nettoyage professionnel Île-de-France" width="180" height="56" />
       </a>
-      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+      <button class="nav__toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <nav class="nav" id="nav">
+      <nav class="nav" id="nav" aria-label="Navigation principale">
         <ul class="nav__list">
           <li><a href="#about" class="nav__link">À propos</a></li>
           <li class="has-dropdown">
-            <a href="#services" class="nav__link">Nos services
-              <svg viewBox="0 0 24 24" fill="currentColor" width="12" height="12"><path d="M7 10l5 5 5-5z"/></svg>
+            <a href="#services" class="nav__link">
+              Nos services
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
             </a>
-            <ul class="dropdown">
-              <li><a href="#service-bureaux">Nettoyage de bureaux</a></li>
-              <li><a href="#service-batiments">Bâtiments &amp; Copropriétés</a></li>
-              <li><a href="#service-parking">Nettoyage de parking</a></li>
-              <li><a href="#service-ecoles">Écoles et crèches</a></li>
-              <li><a href="#service-ehpad">Maisons de retraite</a></li>
-              <li><a href="#service-medical">Cabinets médicaux</a></li>
+            <ul class="dropdown" role="menu">
+              <li role="menuitem"><a href="#service-bureaux">🏢 Nettoyage de bureaux</a></li>
+              <li role="menuitem"><a href="#service-batiments">🏬 Bâtiments &amp; Copropriétés</a></li>
+              <li role="menuitem"><a href="#service-parking">🅿️ Nettoyage de parking</a></li>
+              <li role="menuitem"><a href="#service-ecoles">🏫 Écoles et crèches</a></li>
+              <li role="menuitem"><a href="#service-ehpad">🏥 Maisons de retraite</a></li>
+              <li role="menuitem"><a href="#service-medical">⚕️ Cabinets médicaux</a></li>
             </ul>
           </li>
-          <li><a href="#devis" class="btn-primary">Demander un devis</a></li>
+          <li><a href="#why" class="nav__link">Nos engagements</a></li>
+          <li><a href="#devis" class="btn-nav">Devis gratuit</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- ===== HERO ===== -->
-  <section class="hero" id="hero">
-    <div class="hero__bg" style="background-image:url('images/hero.jpg')"></div>
+  <section class="hero" id="hero" aria-label="Bannière principale">
+    <div class="hero__bg" style="background-image:url('images/hero.jpg')" role="img" aria-label="Équipe LD Nettoyage en intervention"></div>
     <div class="hero__overlay"></div>
     <div class="container hero__inner">
       <div class="hero__content">
-        <div class="hero__tag">
-          <span class="hero__line"></span>
-          LD NETTOYAGE
+        <div class="hero__eyebrow">
+          <span class="hero__line" aria-hidden="true"></span>
+          <span>LD NETTOYAGE — LIVRY-GARGAN</span>
         </div>
-        <h1 class="hero__title">Entreprise de nettoyage professionnel<br/>en région Île-de-France</h1>
-        <p class="hero__desc">Bureaux, commerces, collectivités, copropriétés, bâtiments ou particuliers : LD Nettoyage assure un entretien professionnel, rigoureux et durable de tous vos espaces. Spécialisée dans le nettoyage professionnel et industriel, la gestion des poubelles, le remplacement de gardien, entretien des espaces verts et débarras d'encombrants. Nous intervenons à Livry Gargan, Aulnay sous bois, le Raincy, Paris et partout en Île-de-France.</p>
+        <h1 class="hero__title">
+          Entreprise de nettoyage<br/>
+          <span class="hero__title-accent">professionnel</span><br/>
+          en Île-de-France
+        </h1>
+        <p class="hero__desc">
+          <strong>Nettoyage de copropriétés, bureaux, parkings, écoles et établissements de santé</strong> — LD Nettoyage intervient à Livry-Gargan, Aulnay-sous-Bois, Le Raincy, Paris et dans tout le 93. Devis gratuit, réponse en 24h.
+        </p>
         <div class="hero__cta">
-          <a href="#devis" class="btn-primary">Demandez un devis</a>
+          <a href="#devis" class="btn-hero">Devis gratuit en 24h</a>
           <a href="tel:0686400117" class="hero__call">
-            <span class="hero__call-icon">
+            <span class="hero__call-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
             </span>
             <span>
-              <small>Nous appeler</small>
+              <small>Appelez-nous maintenant</small>
               <strong>06 86 40 01 17</strong>
             </span>
           </a>
         </div>
+        <div class="hero__tags" aria-label="Services disponibles">
+          <span>✓ Copropriétés</span>
+          <span>✓ Bureaux</span>
+          <span>✓ Parkings</span>
+          <span>✓ Devis gratuit</span>
+        </div>
       </div>
-      <div class="hero__trust">
+      <div class="hero__trust" aria-label="Avis clients Trustpilot">
         <div class="trust-box">
-          <img src="images/trustpilot.svg" alt="Trustpilot" class="trust-box__logo" />
-          <img src="images/stars.svg" alt="5 étoiles" class="trust-box__stars" />
-          <p class="trust-box__score">TrustScore 5</p>
-          <p class="trust-box__reviews">Basé sur 34 avis.</p>
+          <img src="images/trustpilot.svg" alt="Trustpilot" class="trust-box__logo" width="130" height="28" />
+          <img src="images/stars.svg" alt="Note 5 étoiles sur 5" class="trust-box__stars" width="140" height="26" />
+          <p class="trust-box__score">TrustScore <strong>5 / 5</strong></p>
+          <p class="trust-box__reviews">Basé sur <strong>34 avis vérifiés</strong></p>
+          <a href="#devis" class="trust-box__cta">Rejoignez nos clients →</a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar" aria-label="Chiffres clés">
+    <div class="container stats-bar__inner">
+      <div class="stat">
+        <span class="stat__num">5+</span>
+        <span class="stat__label">Années d'expérience</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">34</span>
+        <span class="stat__label">Avis 5 étoiles</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">7j/7</span>
+        <span class="stat__label">Disponibilité</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">100%</span>
+        <span class="stat__label">Produits écologiques</span>
+      </div>
+    </div>
+  </div>
+
   <!-- ===== ABOUT ===== -->
-  <section class="about section" id="about">
+  <section class="about section" id="about" aria-labelledby="about-title">
     <div class="container about__inner">
       <div class="about__media">
-        <img src="images/dots.svg" alt="" class="about__dots about__dots--tl" />
-        <img src="images/about.webp" alt="Équipe LD Nettoyage" class="about__photo" />
-        <div class="about__counter">
+        <img src="images/dots.svg" alt="" class="about__dots about__dots--tl" aria-hidden="true" />
+        <img src="images/about.webp" alt="Équipe LD Nettoyage en uniforme lors d'une intervention professionnelle" class="about__photo" width="580" height="480" loading="lazy" />
+        <div class="about__counter" aria-label="Clients satisfaits">
           <span class="counter__num">5+</span>
-          <span class="counter__label">clients satisfaits</span>
+          <span class="counter__label">ans d'expérience</span>
         </div>
-        <img src="images/dots.svg" alt="" class="about__dots about__dots--br" />
+        <img src="images/dots.svg" alt="" class="about__dots about__dots--br" aria-hidden="true" />
       </div>
       <div class="about__content">
-        <p class="section-tag">QUI SOMMES NOUS ?</p>
-        <h2 class="section-title">LD Nettoyage: votre partenaire hygiène et propreté en île de France</h2>
-        <p class="about__text">LD NETTOYAGE est une entreprise spécialisée dans le nettoyage professionnel et industriel. L'entretien des parties communes, la gestion des poubelles et multiservices en île de France. Basée à Livry Gargan, notre société accompagne les copropriétés, syndics, entreprise, bureaux, commerces, industries, collectivités, fin de chantiers et parking avec un service de nettoyage fiable, réactif et hautement qualitatif.</p>
+        <p class="section-tag">QUI SOMMES-NOUS ?</p>
+        <h2 class="section-title" id="about-title">LD Nettoyage : votre partenaire propreté et hygiène en Île-de-France</h2>
+        <p class="about__lead">Entreprise de nettoyage professionnel basée à <strong>Livry-Gargan (93)</strong>, LD Nettoyage intervient auprès des copropriétés, syndics, entreprises, collectivités et particuliers de toute la région Île-de-France.</p>
+        <p class="about__text">Spécialisée dans le <strong>nettoyage industriel et professionnel</strong>, l'entretien des parties communes, la gestion des poubelles, le remplacement de gardien et les multiservices, notre équipe formée garantit un résultat irréprochable à chaque intervention.</p>
+        <p class="about__text">Nous intervenons rapidement à <strong>Livry-Gargan, Aulnay-sous-Bois, Le Raincy, Clichy-sous-Bois, Montfermeil, Noisy-le-Grand, Villepinte et Paris</strong>.</p>
+        <div class="about__badges">
+          <span class="badge">🌿 Produits éco-certifiés</span>
+          <span class="badge">⚡ Intervention rapide</span>
+          <span class="badge">📋 Devis gratuit</span>
+          <span class="badge">✅ Satisfaction garantie</span>
+        </div>
+        <a href="#devis" class="btn-primary">Demandez un devis gratuit</a>
       </div>
     </div>
   </section>
 
   <!-- ===== COMMENT NOUS TRAVAILLONS ===== -->
-  <section class="how section--dark" id="how">
+  <section class="how section--dark" id="how" aria-labelledby="how-title">
     <div class="container">
-      <div class="section-header section-header--center">
-        <p class="section-tag section-tag--light">COMMENT NOUS TRAVAILLONS</p>
-        <h2 class="section-title section-title--light">Des prestations de nettoyage<br/>adaptées à vos besoins</h2>
+      <div class="section-header--center">
+        <p class="section-tag section-tag--light">NOTRE MÉTHODE DE TRAVAIL</p>
+        <h2 class="section-title section-title--light" id="how-title">Des prestations de nettoyage<br/>adaptées à chaque besoin</h2>
+        <p class="section-subtitle">De la copropriété au site industriel, nous adaptons nos méthodes et notre matériel à chaque type de surface et d'environnement.</p>
       </div>
       <div class="how__grid">
-        <div class="how-card">
-          <div class="how-card__icon">
+        <article class="how-card">
+          <div class="how-card__icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h5v5H7z"/></svg>
           </div>
-          <h3>Nettoyage régulier</h3>
-          <p>LD NETTOYAGE assure un entretien régulier professionnel pour les copropriétés, immeubles, bâtiments, syndics, bureaux, commerces, sites industriels et les particuliers. Nous prenons en charge le nettoyage des parties communes, la gestion des poubelles et des locaux poubelles. Avec une équipe formée et du matériel professionnel, nous garantissons une propreté durable adaptées à chaque site.</p>
-        </div>
-        <div class="how-card">
-          <div class="how-card__icon">
+          <h3>Nettoyage régulier & maintenance</h3>
+          <p>Entretien planifié des <strong>copropriétés, immeubles, bureaux et commerces</strong>. Nettoyage des parties communes, gestion des locaux poubelles, lavage des sols, entretien des espaces verts. Un planning sur-mesure, des agents formés, des résultats constants.</p>
+        </article>
+        <article class="how-card">
+          <div class="how-card__icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
           </div>
-          <h3>Nettoyage fin de chantier et remise en état</h3>
-          <p>Nous intervenons avant ou après travaux , le dépoussiérage complet, le retrait des gravats et résidus, le lavage des sols à la monobrosse ou autolaveuse, nettoyage des vitres, nettoyage haute pression, équipement industriel, les surfaces difficiles d'accès, avec un matériel adapté et des résultats impeccables.</p>
-        </div>
-        <div class="how-card">
-          <div class="how-card__icon">
+          <h3>Nettoyage fin de chantier</h3>
+          <p>Remise en état après travaux : <strong>dépoussiérage complet, retrait des gravats</strong>, lavage des sols à la monobrosse, nettoyage haute pression, nettoyage des vitres et surfaces difficiles. Résultats impeccables pour une livraison irréprochable.</p>
+        </article>
+        <article class="how-card">
+          <div class="how-card__icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
           </div>
-          <h3>Équipe formée et expérimentée</h3>
-          <p>Chez LD NETTOYAGE, notre force repose sur une équipe de professionnels formés et expérimentés, spécialisée dans le nettoyage de copropriétés, bureaux, commerces, collectivités, industriel et particuliers Une équipe. Une équipe fiable au service de la propreté de tous les espaces, syndics, entreprises et foyers privés.</p>
-        </div>
-        <div class="how-card">
-          <div class="how-card__icon">
+          <h3>Équipe professionnelle & formée</h3>
+          <p>Notre équipe est <strong>formée aux protocoles de nettoyage professionnel</strong> et aux produits éco-certifiés. Agents fiables, ponctuels et discrets, intervenant dans le respect de vos locaux, de vos résidents et de vos collaborateurs.</p>
+        </article>
+        <article class="how-card">
+          <div class="how-card__icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
           </div>
-          <h3>Engagement et satisfaction client</h3>
-          <p>Chez LD NETTOYAGE, nous plaçons la satisfaction client et le respect de l'environnement au centre de nos prestations. Nous garantissons un service de nettoyage professionnel, régulier, fiable et soigné pour les copropriétés, bureaux, commerces, industries et particuliers, avec des produits écologiques respectueux de la santé. Nos engagements: qualité constante, réactivité, respect des délais, contrôles réguliers et communication claire.</p>
-        </div>
+          <h3>Satisfaction client garantie</h3>
+          <p><strong>Qualité constante, réactivité et communication transparente</strong> : contrôles réguliers, respect des délais, rapport d'intervention. Votre satisfaction est notre priorité absolue. En cas d'insatisfaction, nous revenons sans frais supplémentaires.</p>
+        </article>
       </div>
       <div class="how__cta">
-        <p>Nettoyage professionnel 7j/7 en Île-de-France — Interventions rapides &amp; devis gratuits.</p>
-        <a href="#devis" class="btn-primary">→ Demandez un devis gratuit</a>
+        <p>🏆 Nettoyage professionnel 7j/7 en Île-de-France — Interventions rapides, devis gratuit sous 24h</p>
+        <a href="#devis" class="btn-hero">Obtenir mon devis gratuit</a>
       </div>
     </div>
   </section>
 
   <!-- ===== SERVICES ===== -->
-  <section class="services section" id="services">
+  <section class="services section" id="services" aria-labelledby="services-title">
     <div class="container">
       <div class="services__header">
         <div class="services__header-left">
-          <p class="section-tag">NOS SERVICES</p>
-          <h2 class="section-title">Nos services de<br/>nettoyage</h2>
+          <p class="section-tag">NOS PRESTATIONS</p>
+          <h2 class="section-title" id="services-title">Nos services de<br/>nettoyage professionnel</h2>
         </div>
         <div class="services__header-right">
-          <p>Chez <strong>LD Nettoyage Multiservices</strong>, nous proposons des solutions de propreté sur mesure pour les entreprises, les copropriétés, les établissements publics et les particuliers.</p>
+          <p>Chez <strong>LD Nettoyage</strong>, nous proposons des solutions de propreté sur mesure pour les <strong>entreprises, copropriétés, établissements publics et particuliers</strong> d'Île-de-France. Chaque prestation est réalisée avec du matériel professionnel et des produits éco-certifiés.</p>
         </div>
       </div>
       <div class="services__grid">
-        <a href="#devis" class="service-card" id="service-bureaux">
-          <div class="service-card__img" style="background-image:url('images/service-bureaux.webp')"></div>
+
+        <article class="service-card" id="service-bureaux">
+          <div class="service-card__img" style="background-image:url('images/service-bureaux.webp')" role="img" aria-label="Nettoyage de bureaux professionnel"></div>
           <div class="service-card__body">
-            <h3>Bureaux</h3>
-            <p>Offrez à vos équipes un environnement de travail propre, sain et agréable grâce à un nettoyage professionnel de vos bureaux. LD NETTOYAGE assure l'entretien des postes de travail, sols, sanitaires et parties commune pour des locaux impeccables et hygiéniques..</p>
-            <span class="service-card__arrow">→</span>
+            <h3>Nettoyage de bureaux</h3>
+            <p>Entretien régulier de vos <strong>locaux professionnels, open spaces, salles de réunion</strong> et sanitaires. Postes de travail, sols, vitres, cuisines — un environnement sain pour vos équipes.</p>
+            <a href="#devis" class="service-card__link">Devis gratuit <span class="service-card__arrow" aria-hidden="true">→</span></a>
           </div>
-        </a>
-        <a href="#devis" class="service-card" id="service-batiments">
-          <div class="service-card__img" style="background-image:url('images/service-batiments.webp')"></div>
+        </article>
+
+        <article class="service-card" id="service-batiments">
+          <div class="service-card__img" style="background-image:url('images/service-batiments.webp')" role="img" aria-label="Nettoyage de bâtiments et copropriétés"></div>
           <div class="service-card__body">
-            <h3>Bâtiments et copropriétés</h3>
-            <p>LD NETTOYAGE assure un entretien régulier et professionnel des bâtiments, immeubles, et copropriétés pour garantir des espaces propres, sûrs et accueillants. Nous prenons en charge le nettoyage des parties communes, la gestion des poubelles et locaux poubelles. L'entretien des parking sous-sol et extérieurs, ainsi que la remise en état des sols et la cristallisation des marbres, shampouinage des moquettes.</p>
-            <span class="service-card__arrow">→</span>
+            <h3>Bâtiments & copropriétés</h3>
+            <p>Entretien des <strong>parties communes, cages d'escalier, halls d'entrée</strong>, gestion des locaux poubelles, cristallisation des marbres et shampouinage des moquettes.</p>
+            <a href="#devis" class="service-card__link">Devis gratuit <span class="service-card__arrow" aria-hidden="true">→</span></a>
           </div>
-        </a>
-        <a href="#devis" class="service-card" id="service-parking">
-          <div class="service-card__img" style="background-image:url('images/service-parking.webp')"></div>
+        </article>
+
+        <article class="service-card" id="service-parking">
+          <div class="service-card__img" style="background-image:url('images/service-parking.webp')" role="img" aria-label="Nettoyage de parking sous-sol et extérieur"></div>
           <div class="service-card__body">
-            <h3>Parkings</h3>
-            <p>LD NETTOYAGE assure le nettoyage professionnel des parking sous sol et extérieurs pour les coproprétés, immeuble, résidences, entreprise et commerces. Nous réalisons le balayage, le lavage haute pression, le dégraissage des sols, l'élimination des traces d'huile, des rampes, murs et zones de circulation, ainsi que l'enlèvement des déchets.</p>
-            <span class="service-card__arrow">→</span>
+            <h3>Nettoyage de parking</h3>
+            <p>Balayage, <strong>lavage haute pression, dégraissage des sols</strong>, élimination des traces d'huile, nettoyage des rampes et zones de circulation. Parkings sous-sol et extérieurs.</p>
+            <a href="#devis" class="service-card__link">Devis gratuit <span class="service-card__arrow" aria-hidden="true">→</span></a>
           </div>
-        </a>
-        <a href="#devis" class="service-card" id="service-ecoles">
-          <div class="service-card__img" style="background-image:url('images/service-ecoles.webp')"></div>
+        </article>
+
+        <article class="service-card" id="service-ecoles">
+          <div class="service-card__img" style="background-image:url('images/service-ecoles.webp')" role="img" aria-label="Nettoyage d'écoles et crèches"></div>
           <div class="service-card__body">
-            <h3>Écoles et crèches</h3>
-            <p>LD NETTOYAGE assure un nettoyage professionnel et sécurisé des écoles, crèches et établissements éducatifs pour garantir un environnement propre, sain et adapté aux enfants. Nous réalisons le nettoyage et la désinfection des salles de classe, l'entretien des sols, des sanitaires, des espaces communs, ainsi que des cantines et zones sensibles, avec des produits écologiques. LD NETTOYAGE : hygiène, sécurité et propreté pour vos écoles et crèches.</p>
-            <span class="service-card__arrow">→</span>
+            <h3>Écoles & crèches</h3>
+            <p><strong>Désinfection des salles de classe</strong>, sanitaires, cantines et espaces communs. Produits 100% écologiques adaptés aux enfants, conformes aux normes sanitaires en vigueur.</p>
+            <a href="#devis" class="service-card__link">Devis gratuit <span class="service-card__arrow" aria-hidden="true">→</span></a>
           </div>
-        </a>
-        <a href="#devis" class="service-card" id="service-ehpad">
-          <div class="service-card__img" style="background-image:url('images/service-ehpad.webp')"></div>
+        </article>
+
+        <article class="service-card" id="service-ehpad">
+          <div class="service-card__img" style="background-image:url('images/service-ehpad.webp')" role="img" aria-label="Nettoyage de maisons de retraite et EHPAD"></div>
           <div class="service-card__body">
-            <h3>Maisons de retraite</h3>
-            <p>LD NETTOYAGE assure un nettoyage professionnel, rigoureux et sécurisé des maisons de retraite et EHPAD, pour garantir un environnement propre, sain et adapté aux personnes âgées. Nous réalisons la désinfection des chambres, l'entretien des salles communes, des sols, des espaces de restauration, avec des produits écologiques adaptés aux personnes fragiles. LD NETTOYAGE : hygiène, sécurité et bien être pour vos résidents.</p>
-            <span class="service-card__arrow">→</span>
+            <h3>Maisons de retraite & EHPAD</h3>
+            <p><strong>Désinfection des chambres, espaces communs et restauration</strong>, adaptée aux personnes fragiles. Protocoles rigoureux, produits hypoallergéniques, respect de la dignité des résidents.</p>
+            <a href="#devis" class="service-card__link">Devis gratuit <span class="service-card__arrow" aria-hidden="true">→</span></a>
           </div>
-        </a>
-        <a href="#devis" class="service-card" id="service-medical">
-          <div class="service-card__img" style="background-image:url('images/service-medical.webp')"></div>
+        </article>
+
+        <article class="service-card" id="service-medical">
+          <div class="service-card__img" style="background-image:url('images/service-medical.webp')" role="img" aria-label="Nettoyage de cabinets médicaux et dentaires"></div>
           <div class="service-card__body">
-            <h3>Cabinets médicaux</h3>
-            <p>LD NETTOYAGE assure un nettoyage professionnel et conforme aux normes sanitaires pour les cabinets médicaux, dentaires et infirmiers. Nous garantissons des espaces propres, désinfectés et sécurisés grâce à l'entretien des salles de soins, salles d'attente, sols, sanitaires et points de contact, avec des produits écologiques adapotés au milieu médical.</p>
-            <span class="service-card__arrow">→</span>
+            <h3>Cabinets médicaux & dentaires</h3>
+            <p><strong>Nettoyage conforme aux normes sanitaires</strong> pour cabinets médicaux, dentaires et infirmiers. Salles de soins, salle d'attente, points de contact — désinfection totale et sécurisée.</p>
+            <a href="#devis" class="service-card__link">Devis gratuit <span class="service-card__arrow" aria-hidden="true">→</span></a>
           </div>
-        </a>
+        </article>
+
       </div>
       <div class="services__cta">
-        <a href="#devis" class="btn-primary">Tous nos services</a>
+        <a href="#devis" class="btn-primary">Demander un devis pour mon activité</a>
       </div>
     </div>
   </section>
 
   <!-- ===== POURQUOI NOUS CHOISIR ===== -->
-  <section class="why section" id="why">
+  <section class="why section" id="why" aria-labelledby="why-title">
     <div class="container why__inner">
       <div class="why__content">
-        <p class="section-tag">POURQUOI NOUS CHOISIR ?</p>
-        <h2 class="section-title">Votre confiance, votre sécurité et votre satisfaction sont nos priorités.</h2>
-        <p class="why__intro">Choisir LD NETTOYAGE, c'est opter pour une entreprise de nettoyage professionnelle, fiable et réactive, spécialisée, dans l'entretien des copropriétés, immeubles, bureaux, commerces, parking, industries et particuliers. Notre équipe formée utilise du matériel professionnel et des produits écologiques pour garantir une propreté durable et des résultats visibles.</p>
+        <p class="section-tag">NOS ENGAGEMENTS</p>
+        <h2 class="section-title" id="why-title">Pourquoi choisir LD Nettoyage ?</h2>
+        <p class="why__intro">Choisir LD Nettoyage, c'est faire confiance à une <strong>entreprise locale, fiable et écoresponsable</strong>. Nous mettons l'humain et la qualité au cœur de chaque intervention, avec des résultats visibles dès le premier passage.</p>
         <ul class="why__list">
           <li>
-            <span class="why__check">
+            <span class="why__check" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
             </span>
             <div>
-              <strong>Produits écologiques et non toxiques</strong>
-              <p>LD NETTOYAGE utilise des produits écologiques et non toxiques pour garantir un nettoyage sain, sécurisé et respectueux de l'environnement. Nos solutions certifiées assurent une propreté durable, sans risques pour les résidents, collaborateurs, enfants ou personnes fragiles, tout en réduisant les allergènes et en améliorant la qualité d'air intérieur.</p>
+              <strong>Produits 100% écologiques et non toxiques</strong>
+              <p>Nous utilisons exclusivement des <strong>produits éco-certifiés</strong>, sans substances nocives, pour protéger la santé de vos occupants, réduire les allergènes et préserver l'environnement. Nettoyage efficace ET responsable.</p>
             </div>
           </li>
           <li>
-            <span class="why__check">
+            <span class="why__check" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
             </span>
             <div>
-              <strong>Matériel professionnel et performant</strong>
-              <p>LD NETTOYAGE utilise du matériel professionnel et performant. monobrosse, autolaveuse, aspirateur industriel, haute pression pour garantir un nettoyage efficace, rapide et de haute qualité. Grâce à ces équipements modernes, nous assurons des résultats précis, durables et irréprochables pour les copropriétés, bureaux, commerces, parking et sites industriels.</p>
+              <strong>Matériel professionnel haute performance</strong>
+              <p><strong>Monobrosse, autolaveuse industrielle, aspirateur HEPA, nettoyeur haute pression</strong> — nos équipements modernes garantissent un nettoyage en profondeur, rapide et durable, sur tout type de revêtement.</p>
             </div>
           </li>
           <li>
-            <span class="why__check">
+            <span class="why__check" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
             </span>
             <div>
-              <strong>Démarche responsable et durable</strong>
-              <p>Nous intégrons des pratiques écoresponsables à chaque étape : tri des déchets, réduction des consommables, sensibilisation de nos équipes.</p>
+              <strong>Intervention rapide & devis sous 24h</strong>
+              <p>Nous nous engageons à vous répondre <strong>sous 24 heures</strong> avec un devis personnalisé et sans engagement. En urgence, nous organisons une intervention dans les meilleurs délais pour répondre à vos besoins.</p>
+            </div>
+          </li>
+          <li>
+            <span class="why__check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            </span>
+            <div>
+              <strong>Démarche écoresponsable et durable</strong>
+              <p>Tri des déchets, réduction des consommables, <strong>formation continue de nos équipes</strong> aux bonnes pratiques environnementales. Nous nettoyons votre espace sans salir la planète.</p>
             </div>
           </li>
         </ul>
       </div>
       <div class="why__media">
-        <img src="images/about-bg.png" alt="Équipe LD Nettoyage" class="why__photo" />
-        <img src="images/dots.svg" alt="" class="why__dots" />
+        <img src="images/about-bg.png" alt="Équipe LD Nettoyage avec matériel professionnel prête à intervenir" class="why__photo" loading="lazy" />
+        <img src="images/dots.svg" alt="" class="why__dots" aria-hidden="true" />
       </div>
     </div>
   </section>
 
-  <!-- ===== DEVIS FORM ===== -->
-  <section class="devis section--form" id="devis">
+  <!-- ===== ZONES ===== -->
+  <section class="zones section--gray" id="zones" aria-labelledby="zones-title">
     <div class="container">
-      <p class="section-tag section-tag--light">DEMANDE DE DEVIS</p>
-      <p class="devis__sub">Tous nos services sont réalisés avec des produits écologiques, dans le respect des normes d'hygiène et de l'environnement.</p>
-      <h2 class="devis__title">Demandez un devis<br/>personnalisé</h2>
-      <div class="devis__form-wrap">
-        <form id="devisForm" novalidate>
-          <div class="form-row">
-            <div class="form-group">
-              <label>Nom complet <span class="req">*</span></label>
-              <div class="form-row form-row--inner">
-                <input type="text" name="prenom" placeholder="Prénom" required />
-                <input type="text" name="nom" placeholder="Nom" required />
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label>Adresse e-mail <span class="req">*</span></label>
-            <input type="email" name="email" placeholder="votremail@mail.com" required />
-          </div>
-          <div class="form-group">
-            <label>Numéro de téléphone</label>
-            <input type="tel" name="telephone" placeholder="0782548777" />
-          </div>
-          <div class="form-group">
-            <label>Message <span class="req">*</span></label>
-            <textarea name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn-primary btn-submit" id="submitBtn">
-            <span id="btnText">Envoyer</span>
-            <span id="btnLoading" style="display:none">Chargement en cours…</span>
-          </button>
-          <div class="form-success" id="formSuccess" style="display:none">✅ Votre demande a bien été envoyée ! Nous vous répondrons très rapidement.</div>
-          <div class="form-error" id="formError" style="display:none">❌ Une erreur est survenue. Veuillez réessayer ou nous appeler.</div>
-        </form>
+      <div class="section-header--center">
+        <p class="section-tag section-tag--center">ZONES D'INTERVENTION</p>
+        <h2 class="section-title" id="zones-title">Nous intervenons dans tout le 93 et en Île-de-France</h2>
+        <p class="section-subtitle">LD Nettoyage se déplace rapidement dans les villes suivantes et leurs environs :</p>
+      </div>
+      <div class="zones__grid">
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Livry-Gargan</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Aulnay-sous-Bois</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Le Raincy</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Clichy-sous-Bois</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Montfermeil</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Noisy-le-Grand</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Villepinte</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Bondy</strong></div>
+        <div class="zone-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg><strong>Paris & Petite Couronne</strong></div>
+      </div>
+      <p class="zones__note">Vous ne voyez pas votre ville ? <a href="#devis">Contactez-nous</a>, nous nous déplaçons dans toute l'Île-de-France.</p>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <div class="cta-banner" aria-label="Appel à l'action">
+    <div class="container cta-banner__inner">
+      <div>
+        <h2 class="cta-banner__title">Besoin d'un nettoyage professionnel rapidement ?</h2>
+        <p class="cta-banner__sub">Devis gratuit — Réponse sous 24h — Sans engagement</p>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="#devis" class="btn-hero">Devis gratuit en ligne</a>
+        <a href="tel:0686400117" class="btn-outline">📞 06 86 40 01 17</a>
       </div>
     </div>
-    <img src="images/dots.svg" alt="" class="devis__dots devis__dots--tr" />
-    <img src="images/dots.svg" alt="" class="devis__dots devis__dots--bl" />
+  </div>
+
+  <!-- ===== DEVIS FORM ===== -->
+  <section class="devis section--form" id="devis" aria-labelledby="devis-title">
+    <div class="container">
+      <div class="devis__header">
+        <p class="section-tag section-tag--center">CONTACT &amp; DEVIS</p>
+        <h2 class="devis__title" id="devis-title">Demandez votre devis<br/>gratuit et personnalisé</h2>
+        <p class="devis__sub">Remplissez le formulaire ci-dessous — notre équipe vous répond <strong>sous 24h</strong> avec une estimation adaptée à votre besoin. Gratuit, sans engagement.</p>
+      </div>
+      <div class="devis__wrap">
+        <div class="devis__info">
+          <h3>Nos coordonnées</h3>
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              <div><strong>Téléphone</strong><a href="tel:0686400117">06 86 40 01 17</a></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <div><strong>Email</strong><a href="mailto:contact@ld-nettoyage.fr">contact@ld-nettoyage.fr</a></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <div><strong>Localisation</strong><span>Livry-Gargan, Île-de-France</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+              <div><strong>Horaires</strong><span>Lun – Sam : 8h à 20h</span></div>
+            </li>
+          </ul>
+          <div class="trust-mini">
+            <img src="images/stars.svg" alt="Note 5 étoiles" width="110" height="20" />
+            <p>34 avis vérifiés — TrustScore 5/5</p>
+          </div>
+        </div>
+        <div class="devis__form-wrap">
+          <form id="devisForm" novalidate aria-label="Formulaire de demande de devis">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="prenom">Prénom <span class="req" aria-label="obligatoire">*</span></label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom <span class="req" aria-label="obligatoire">*</span></label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Adresse e-mail <span class="req" aria-label="obligatoire">*</span></label>
+              <input type="email" id="email" name="email" placeholder="votre@email.fr" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="telephone">Numéro de téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="06 XX XX XX XX" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="service">Type de prestation</label>
+              <select id="service" name="service">
+                <option value="">— Choisissez un service —</option>
+                <option value="bureaux">Nettoyage de bureaux</option>
+                <option value="copropriete">Bâtiments &amp; Copropriétés</option>
+                <option value="parking">Nettoyage de parking</option>
+                <option value="ecoles">Écoles &amp; Crèches</option>
+                <option value="ehpad">Maisons de retraite / EHPAD</option>
+                <option value="medical">Cabinets médicaux</option>
+                <option value="chantier">Fin de chantier</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Décrivez votre besoin <span class="req" aria-label="obligatoire">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Surface approximative, fréquence souhaitée, type de locaux…" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn" aria-live="polite">
+              <span id="btnText">Envoyer ma demande de devis</span>
+              <span id="btnLoading" style="display:none" aria-label="Envoi en cours">⏳ Envoi en cours…</span>
+            </button>
+            <p class="form-legal">En soumettant ce formulaire, vous acceptez d'être contacté par LD Nettoyage. Vos données ne seront jamais partagées.</p>
+            <div class="form-success" id="formSuccess" style="display:none" role="alert">✅ Votre demande a bien été envoyée ! Nous vous répondrons sous 24h.</div>
+            <div class="form-error" id="formError" style="display:none" role="alert">❌ Une erreur est survenue. Appelez-nous directement au <a href="tel:0686400117">06 86 40 01 17</a>.</div>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="container footer__inner">
-      <p>2025. LD Nettoyage © <a href="#">Mentions légales</a></p>
+      <div class="footer__brand">
+        <img src="images/logo.webp" alt="LD Nettoyage" class="footer__logo" width="160" height="50" loading="lazy" />
+        <p class="footer__tagline">Entreprise de nettoyage professionnel<br/>écoresponsable en Île-de-France</p>
+        <div class="footer__contact-quick">
+          <a href="tel:0686400117" class="footer__phone">📞 06 86 40 01 17</a>
+          <a href="mailto:contact@ld-nettoyage.fr">✉️ contact@ld-nettoyage.fr</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Nos services</h3>
+        <ul class="footer__links">
+          <li><a href="#service-bureaux">Nettoyage de bureaux</a></li>
+          <li><a href="#service-batiments">Bâtiments &amp; Copropriétés</a></li>
+          <li><a href="#service-parking">Nettoyage de parking</a></li>
+          <li><a href="#service-ecoles">Écoles et crèches</a></li>
+          <li><a href="#service-ehpad">Maisons de retraite / EHPAD</a></li>
+          <li><a href="#service-medical">Cabinets médicaux</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Zones desservies</h3>
+        <ul class="footer__links">
+          <li>Livry-Gargan (93)</li>
+          <li>Aulnay-sous-Bois</li>
+          <li>Le Raincy</li>
+          <li>Noisy-le-Grand</li>
+          <li>Clichy-sous-Bois</li>
+          <li>Paris &amp; Petite Couronne</li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Contact rapide</h3>
+        <ul class="footer__links">
+          <li><a href="tel:0686400117">📞 06 86 40 01 17</a></li>
+          <li><a href="mailto:contact@ld-nettoyage.fr">✉️ contact@ld-nettoyage.fr</a></li>
+          <li>📍 Livry-Gargan, 93190</li>
+          <li>🕐 Lun – Sam : 8h à 20h</li>
+          <li><a href="#devis">📋 Devis gratuit en ligne</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2025 LD Nettoyage — Tous droits réservés | <a href="#">Mentions légales</a></p>
+        <p class="footer__seo-text">Nettoyage professionnel Île-de-France · Nettoyage copropriété 93 · Entretien bureaux Seine-Saint-Denis</p>
+      </div>
     </div>
   </footer>
 

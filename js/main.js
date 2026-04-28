@@ -2,7 +2,15 @@
 const navToggle = document.getElementById('navToggle');
 const nav = document.getElementById('nav');
 
-navToggle.addEventListener('click', () => nav.classList.toggle('open'));
+navToggle.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  navToggle.setAttribute('aria-expanded', open);
+});
+
+// Sticky header shadow
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 20);
+});
 
 // Mobile dropdown
 document.querySelectorAll('.has-dropdown').forEach(item => {
@@ -61,6 +69,7 @@ document.getElementById('devisForm').addEventListener('submit', async (e) => {
     nom_complet: `${form.prenom.value.trim()} ${form.nom.value.trim()}`,
     email: form.email.value.trim(),
     telephone: form.telephone.value.trim(),
+    service: form.service.value,
     message: form.message.value.trim(),
     source: window.location.hostname || 'ldnettoyage',
     date: new Date().toISOString(),
