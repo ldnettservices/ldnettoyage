@@ -44,7 +44,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 // ===== FORM → N8N WEBHOOK =====
-const WEBHOOK = 'https://n8n-formation.isao.io/webhook-test/cleanpro-lead-capture';
+const WEBHOOK = 'https://n8n-formation.isao.io/webhook/cleanpro-lead-capture';
 
 document.getElementById('devisForm').addEventListener('submit', async (e) => {
   e.preventDefault();
