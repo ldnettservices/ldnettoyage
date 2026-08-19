@@ -391,3 +391,48 @@ ul { list-style: none; }
   .about__counter { position: static; margin-top: 20px; display: inline-flex; gap: 14px; align-items: center; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: none; }
   .hero__tags span { font-size: .78rem; }
 }
+
+
+/* ===== FAQ ===== */
+.faq__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 48px; }
+.faq__item { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.faq__question { cursor: pointer; padding: 20px 24px; font-weight: 600; font-size: .97rem; color: var(--dark); display: flex; justify-content: space-between; align-items: center; gap: 12px; list-style: none; }
+.faq__question::-webkit-details-marker { display: none; }
+.faq__question::after { content: '+'; font-size: 1.4rem; font-weight: 300; color: var(--primary); flex-shrink: 0; transition: transform .25s; }
+.faq__item[open] .faq__question::after { transform: rotate(45deg); }
+.faq__answer { padding: 0 24px 20px; color: var(--text-muted); font-size: .93rem; line-height: 1.7; }
+.faq__answer p strong { color: var(--dark); }
+
+@media (max-width: 768px) {
+  .faq__grid { grid-template-columns: 1fr; }
+}
+
+/* ===== ZONES DEPARTMENTS ===== */
+.zones__departments { display: flex; flex-direction: column; gap: 36px; margin-top: 48px; }
+.zones__dept { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; }
+.zones__dept-title { font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 18px; padding-bottom: 12px; border-bottom: 2px solid var(--primary-light); }
+.zones__grid--dense { grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.zones__grid--dense .zone-item { font-size: .88rem; padding: 8px 10px; }
+
+@media (max-width: 900px) {
+  .zones__grid--dense { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 600px) {
+  .zones__grid--dense { grid-template-columns: repeat(2, 1fr); }
+  .zones__dept { padding: 18px 16px; }
+}
+
+/* ===== TÉMOIGNAGES ===== */
+.temoignages__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+.temoignage-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 24px; display: flex; flex-direction: column; gap: 16px; transition: box-shadow .2s; }
+.temoignage-card:hover { box-shadow: 0 6px 24px rgba(99,130,247,.1); }
+.temoignage-card__stars { color: #f59e0b; font-size: 1.15rem; letter-spacing: 2px; }
+.temoignage-card__text { font-size: .93rem; color: var(--text-muted); line-height: 1.75; font-style: italic; margin: 0; flex: 1; }
+.temoignage-card__author { border-top: 1px solid var(--border); padding-top: 14px; display: flex; flex-direction: column; gap: 3px; }
+.temoignage-card__author strong { color: var(--dark); font-size: .92rem; }
+.temoignage-card__author span { color: var(--text-muted); font-size: .82rem; }
+.temoignages__cta { margin-top: 40px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.temoignages__cta p { color: var(--text-muted); font-size: .95rem; }
+
+@media (max-width: 900px) { .temoignages__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .temoignages__grid { grid-template-columns: 1fr; } }
